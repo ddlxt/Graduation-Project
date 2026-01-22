@@ -8,7 +8,7 @@ from chromadb.config import Settings
 # -----------------------------
 # SBERT 本地模型
 # -----------------------------
-MODEL_PATH = r"E:/GraduationProject/model/paraphrase-multilingual-MiniLM-L12-v2"
+MODEL_PATH = r"E:/GraduationProject/model/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 model = SentenceTransformer(MODEL_PATH, local_files_only=True)
 
 # -----------------------------

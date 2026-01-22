@@ -236,7 +236,7 @@ with gr.Blocks(css=custom_css) as demo:
     # 顶部标题 + 图标
     with gr.Row(elem_id="header"):
         gr.HTML(f'<img src="data:image/png;base64,{b64_icon}">')
-        gr.HTML("AI问答助手")
+        gr.HTML("故宫问答助手")
 
     # 默认交互按钮
     with gr.Row(elem_id="default_buttons"):

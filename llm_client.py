@@ -10,7 +10,7 @@ openai.api_request_timeout = 60
 
 # ---------------------------- # 2. 生成回答函数 # ----------------------------
 
-def call_llm( user_question, context_texts=None, use_knowledge_only=False, system_prompt=None, temperature=0.2, max_tokens=500 ):
+def call_llm( user_question, context_texts=None, use_knowledge_only=False, system_prompt=None, temperature=0.1, max_tokens=300 ):
     messages = []
     # 1. 系统角色提示：提供一个行为指导，不能包含资料内容
     if system_prompt:
